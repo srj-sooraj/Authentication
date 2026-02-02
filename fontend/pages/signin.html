@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/signin.css">
+</head>
+<body>
+    <div class="auth-page">
+        <div class="auth-bg">
+            <div class="auth-blob auth-blob-1"></div>
+            <div class="auth-blob auth-blob-2"></div>
+            <div class="auth-blob auth-blob-3"></div>
+        </div>
+
+        <div class="auth-layout">
+            <div class="auth-brand">
+                <div class="brand-content">
+                    <span class="brand-icon">◆</span>
+                    <h1>Welcome back</h1>
+                    <p>Sign in to access your dashboard and manage your account.</p>
+                    <ul class="brand-features">
+                        <li>Secure authentication</li>
+                        <li>Profile management</li>
+                        <li>Fast & reliable</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="auth-form-wrapper">
+                <div class="card form-container">
+                    <div class="form-header">
+                        <h1>Sign in</h1>
+                        <p class="form-desc">Enter your credentials to continue</p>
+                    </div>
+                    <form id="login">
+                        <div class="field">
+                            <label for="username">Username</label>
+                            <input type="text" name="username" id="username" placeholder="Enter username" autocomplete="username">
+                        </div>
+                        <div class="field">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password" placeholder="Enter password" autocomplete="current-password">
+                        </div>
+                        <p id="msg" class="msg"></p>
+                        <button type="submit" class="btn btn-primary">Sign in</button>
+                        <p class="form-footer">Don't have an account? <a href="./signup.html">Sign up</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/signin.js"></script>
+</body>
+</html>

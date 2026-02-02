@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+   
+    <div class="page-bg">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+        <div class="grid-pattern"></div>
+    </div>
+
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <span class="logo-icon">◆</span>
+                <h1>Dashboard</h1>
+            </div>
+            <div class="nav-links">
+                <a href="./pages/profile.html">Profile</a>
+                <a href="./pages/edit.html">Edit</a>
+                <button class="btn btn-danger" onclick="deleteDetails()">Delete profile</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <p class="hero-badge">Your Account</p>
+                <h2 class="hero-title">Welcome back</h2>
+                <p class="hero-subtitle">Manage your profile and stay in control</p>
+            </div>
+        </section>
+
+        <div class="content-grid">
+            <div class="quick-cards">
+                <div class="quick-card">
+                    <div class="quick-card-icon">👤</div>
+                    <h3>Profile</h3>
+                    <p>View & edit your details</p>
+                    <a href="./pages/profile.html" class="quick-card-link">Go to Profile →</a>
+                </div>
+                <div class="quick-card">
+                    <div class="quick-card-icon">✏️</div>
+                    <h3>Edit</h3>
+                    <p>Update your information</p>
+                    <a href="./pages/edit.html" class="quick-card-link">Edit Profile →</a>
+                </div>
+            </div>
+
+            <div class="card welcome-card" id="session">
+               
+            </div>
+        </div>
+    </main>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>

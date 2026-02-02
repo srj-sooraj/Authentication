@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/signin.css">
+</head>
+<body>
+    <div class="auth-page">
+        <div class="auth-bg">
+            <div class="auth-blob auth-blob-1"></div>
+            <div class="auth-blob auth-blob-2"></div>
+            <div class="auth-blob auth-blob-3"></div>
+        </div>
+
+        <div class="auth-layout">
+            <div class="auth-brand">
+                <div class="brand-content">
+                    <span class="brand-icon">◆</span>
+                    <h1>Create account</h1>
+                    <p>Join us and take control of your profile. Get started in seconds.</p>
+                    <ul class="brand-features">
+                        <li>Easy setup</li>
+                        <li>Manage your data</li>
+                        <li>Full control</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="auth-form-wrapper">
+                <div class="card form-container">
+                    <div class="form-header">
+                        <h1>Sign up</h1>
+                        <p class="form-desc">Create your account to get started</p>
+                    </div>
+                    <form id="signup">
+                        <div class="field">
+                            <label for="username">Username</label>
+                            <input type="text" name="username" id="username" placeholder="Enter username" autocomplete="username">
+                        </div>
+                        <div class="field">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password" placeholder="Enter password" autocomplete="new-password">
+                        </div>
+                        <div class="field">
+                            <label for="cpassword">Confirm password</label>
+                            <input type="password" name="cpassword" id="cpassword" placeholder="Confirm password" autocomplete="new-password">
+                        </div>
+                        <p id="msg" class="msg"></p>
+                        <button type="submit" class="btn btn-primary">Create account</button>
+                        <p class="form-footer">Already have an account? <a href="./signin.html">Sign in</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/signup.js"></script>
+</body>
+</html>
